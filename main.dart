@@ -19,11 +19,7 @@ void main() async {
     if (Platform.isAndroid) {
       await Firebase.initializeApp(
           options: const FirebaseOptions(
-              apiKey: "AIzaSyB2aokTJNfAQlojFH27uYx6GiG97X-oi0s",
-              appId: "1:724055817942:android:f24f49400742c68535d377",
-              messagingSenderId: "724055817942",
-              projectId: "otpapp-ebe3e",
-              storageBucket: "gs://otpapp-ebe3e.appspot.com"
+             
           )
       );
     } else {
